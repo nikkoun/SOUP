@@ -89,6 +89,9 @@ It seems that Method 2 can give better results. Due to the poor quality of the d
 Alternative: https://github.com/felixendres/rgbdslam_v2
 
 
+## C++ Integration
+https://github.com/jmiseikis/ur5_inf3480
+
 
 ## PCL
 http://wiki.ros.org/pcl
