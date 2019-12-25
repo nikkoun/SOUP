@@ -86,6 +86,9 @@ Method 2:
     roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start" rviz:=true rtabmapviz:=false depth_topic:=/camera/aligned_depth_to_color/image_raw rgb_topic:=/camera/color/image_raw camera_info_topic:=/camera/color/camera_info
 
 It seems that Method 2 can give better results. Due to the poor quality of the depth data, rtabmap frequently gets lost. You may need to try many times to get a good map.
+Alternative: https://github.com/felixendres/rgbdslam_v2
+
+
 
 ## PCL
 http://wiki.ros.org/pcl
