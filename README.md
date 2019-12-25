@@ -9,7 +9,7 @@
 
 
 ## MoveIt Controller and model for Universal Robots (included in ROS Industrial)
-[]  https://github.com/ros-industrial/universal_robot
+https://github.com/ros-industrial/universal_robot
 
 ### Start gazebo and load arm model
 
@@ -27,7 +27,8 @@
 
 
 ## Official Intel Realsense D415 ROS-SDK 
-### https://github.com/IntelRealSense/realsense-ros
+https://github.com/IntelRealSense/realsense-ros
+
 Start Realsense viewer
     
     realsense-viewer
@@ -38,7 +39,7 @@ Start Ros Node with mapping depth to rgb
 
 
 ## Official Universal Robots ROS Driver
-### https://github.com/UniversalRobots/Universal_Robots_ROS_Driver
+https://github.com/UniversalRobots/Universal_Robots_ROS_Driver
 
 To actually start the robot driver use one of the existing launch files
 
@@ -70,7 +71,7 @@ For starting up RViz with a configuration including the MoveIt! Motion Planning 
 
 
 ## RtabMap_ros - RGBD SLAM
-### https://github.com/introlab/rtabmap_ros
+https://github.com/introlab/rtabmap_ros
 
 For Intel Realsense D415 command for the hand-held RGB-D SLAM:
 Method 1:
