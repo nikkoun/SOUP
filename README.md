@@ -97,21 +97,19 @@ https://github.com/jmiseikis/ur5_inf3480
 
 ## PCL
 http://wiki.ros.org/pcl
+
 http://wiki.ros.org/pcl/Overview
 
 
 
 
 ## ROS help
-Opens the current ros graph
+Dislay the current ros graph
 
     rosrun rqt_graph rqt_graph
 
-Topic where Joints state is published  
+Setup Assistant for UR10e Model and MoveIt! Configuration
 
-    rostopic echo /joint_states -n 1
+    roslaunch moveit_setup_assistant setup_assistant.launch
 
-Topic where transforms are published
 
-    rostopic echo /tf -n 1
-    rostopic echo /tf_static -n 1
