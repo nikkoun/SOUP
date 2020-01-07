@@ -97,7 +97,8 @@ https://github.com/introlab/rtabmap_ros
 ![SLAM MAP](/images/os_tracking_results.gif)
 
 
-For Intel Realsense D415 command for the hand-held RGB-D SLAM:
+Hand-held RGB-D SLAM For Intel Realsense D415 
+
 Method 1:
     
     roslaunch realsense2_camera rs_camera.launch ( align_depth:=true)()
