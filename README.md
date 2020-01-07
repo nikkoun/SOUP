@@ -38,7 +38,7 @@ https://github.com/ros-industrial/universal_robot
 
     roslaunch ur_e_gazebo ur10e.launch
 
-#### Load MoveIt contrrollers for arm
+#### Load MoveIt contrrollers for robot
 
     roslaunch ur10_e_moveit_config ur10_e_moveit_planning_execution.launch sim:=true
 
@@ -46,6 +46,9 @@ https://github.com/ros-industrial/universal_robot
 
     roslaunch ur10_e_moveit_config moveit_rviz.launch config:=true
 
+#### Setup Assistant for UR10e Model and MoveIt! Configuration
+
+    roslaunch moveit_setup_assistant setup_assistant.launch
 
 
 ## Official Intel Realsense D415 ROS-SDK 
@@ -132,8 +135,6 @@ Dislay the current ros graph
 
     rosrun rqt_graph rqt_graph
 
-Setup Assistant for UR10e Model and MoveIt! Configuration
 
-    roslaunch moveit_setup_assistant setup_assistant.launch
 
 
