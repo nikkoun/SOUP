@@ -61,11 +61,11 @@ Use this with any client interface such as MoveIt! or simply the rqt_joint_traje
 
 Additionally, you can use MoveIt! to control the robot. For setting up the MoveIt! nodes to allow motion planning run:
 
-    roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch limited:=true
+    roslaunch ur10_e_moveit_config ur10_e_moveit_planning_execution.launch limited:=true
 
 For starting up RViz with a configuration including the MoveIt! Motion Planning plugin run:
 
-    roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+    roslaunch ur10_e_moveit_config moveit_rviz.launch config:=true
 
 
 
