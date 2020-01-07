@@ -42,12 +42,11 @@ https://github.com/UniversalRobots/Universal_Robots_ROS_Driver
 
 To actually start the robot driver use one of the existing launch files
 
-    roslaunch ur_robot_driver <robot_type>_bringup.launch robot_ip:=192.168.56.101
+    roslaunch ur_robot_driver ur10e_bringup.launch robot_ip:=192.168.56.101
 
-where <robot_type> is ur10e. 
 If you calibrated the robot, pass that calibration to the launch file:
 
-    roslaunch ur_robot_driver <robot_type>_bringup.launch robot_ip:=192.168.56.101 kinematics_config:=$(rospack find ur_calibration)/etc/ur10e_example_calibration.yaml
+    roslaunch ur_robot_driver ur10e_bringup.launch robot_ip:=192.168.56.101 kinematics_config:=$(rospack find ur_calibration)/etc/ur10e_example_calibration.yaml
 
 If the parameters in that file don't match the ones reported from the robot, the driver will output an error during startup, but will remain usable.
 
