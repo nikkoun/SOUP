@@ -71,6 +71,9 @@ For starting up RViz with a configuration including the MoveIt! Motion Planning 
 ## RtabMap_ros - RGBD SLAM
 https://github.com/introlab/rtabmap_ros
 
+![SLAM MAP](/images/os_tracking_results.gif)
+
+
 For Intel Realsense D415 command for the hand-held RGB-D SLAM:
 Method 1:
     
