@@ -6,11 +6,15 @@
 ![ROS_Diagram](/images/ros_diagram.png)
 
 #### MoveIt Mode
-This Node implements a control interface for the UR10e Robot. Contains Robot Models, Kinematics and Motion Planning Libraries. Collisions are handled by imposing constrains to the model. Attenuator should be modeled and added to the existing model with a seperate dedicated controller. Can run in sim mode or with real robot. 
+This Node implements a control interface for the UR10e Robot. Contains Robot and Attenuator Models, Kinematics Solvers and Motion Planning Libraries. Collisions can be handled by imposing constrains to the model. Attenuator should be modeled and added to the existing model with a seperate dedicated controller. Can run in sim mode or with real robot. 
 
 #### C++ Integration Node
+C++ Interface for data processing and task implementation (scann, fog, harvest). Can be used to set goals (poses) / constrains manualy and control the interaction between the robot and the environment. Links to PCL and OpenCV Libraries for handling data received from the camera. 
+
 
 #### RGB-D SLAM Node
+Real time Localization and mapping. RGB-D data (pointclouds) from the camera are used to build a 3D map of the environment.     
+Implements odometry via the @@@@ sensor for localization using reference frame of the camera.
 
 #### Realsense SDK Node
 
