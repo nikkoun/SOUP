@@ -5,6 +5,28 @@
 
 ![ROS_Diagram](/images/ros_diagram.png)
 
+#### MoveIt Mode
+This Node implements a control interface for the UR10e Robot. Contains Robot Models, Kinematics and Motion Planning Libraries. Collisions are handled by imposing constrains to the model. Attenuator should be modeled and added to the existing model with a seperate dedicated controller. Can run in sim mode or with real robot. 
+
+#### C++ Integration Node
+
+#### RGB-D SLAM Node
+
+#### Realsense SDK Node
+
+#### Gazebo Node
+
+#### UR ROS Driver Node
+
+#### URCap
+
+#### Tasks
+
+#### 3D Map
+
+#### Robot Configuration
+
+
 
 
 
