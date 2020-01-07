@@ -17,11 +17,11 @@ https://github.com/ros-industrial/universal_robot
 
 #### Load MoveIt contrrollers for arm
 
-    roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
+    roslaunch ur10_e_moveit_config ur10_e_moveit_planning_execution.launch sim:=true
 
 #### Starts rviz gui to send commands to the controller
 
-    roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+    roslaunch ur10_e_moveit_config moveit_rviz.launch config:=true
 
 
 
