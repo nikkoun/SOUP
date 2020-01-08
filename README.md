@@ -33,11 +33,11 @@ https://github.com/ros-industrial/universal_robot
 
     roslaunch ur_e_gazebo ur10e.launch
 
-#### Load MoveIt contrrollers for robot
+#### Load MoveIt controllers for the robot
 
     roslaunch ur10_e_moveit_config ur10_e_moveit_planning_execution.launch sim:=true
 
-#### Starts rviz gui to send commands to the controller
+#### Starts rviz GUI for motion planning and moving the robot
 
     roslaunch ur10_e_moveit_config moveit_rviz.launch config:=true
 
