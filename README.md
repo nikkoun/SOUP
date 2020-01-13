@@ -2,7 +2,7 @@
 
 #### System architecture
 
-![ROS_Diagram](/images/ros_diagram.png)
+![ROS_Diagram](/images/SOUP Robot System ROS Architecture.png)
 
 #### MoveIt / Robot Configuration
 A control interface for the UR10e Robot that communicates over ROS topics, services, and actions. Contains UR10e Robot Model (URDF,SRDF format), Attenuators Models, Kinematics Solvers and Motion Planning Libraries. It provides easy to use functionality for most operations that a user may want to carry out and It Can be used with a simulated or real robot. Collisions are handled by imposing constrains to the model. A Custom Attenuator should be modeled and added to the existing model with a seperate dedicated controller. It can be used with Rviz GUI or with c++ to control the robot.
